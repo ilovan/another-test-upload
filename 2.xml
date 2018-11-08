@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<rdf:Description rdf:about="https://dev-cwrc-writer.cwrc.ca//editor/documents/null">
+	<cw:mode>0</cw:mode>
+	<cw:allowOverlap>false</cw:allowOverlap>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-11-08T16:15:05.935Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-11-08T16:15:05.935Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#linking"/>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"source":"WorldCat","target":"Resource_URI"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsText"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<rdf:value>xpointer(//ref[@annotationId="ent_298"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/02cb83a4-f558-48f2-ba03-fabc8b09c6fb">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/7d1fadd0-f1cd-46ee-8fb2-b533da47dd72"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://dbpedia.org/resource/Toe_Rag_Studios"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/24c51f83-431d-40a0-85db-9f2e48abec5e"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-11-08T16:15:05.936Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-11-08T16:15:05.936Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"nameType":"organisation","id":"http://dbpedia.org/resource/Toe_Rag_Studios","uri":"http://dbpedia.org/resource/Toe_Rag_Studios","uriForDisplay":"https://dbpedia.lookup.services.cwrc.ca/resource/Toe_Rag_Studios","name":"Toe Rag Studios","repository":"dbpedia","originalQueryString":"TOE","description":"Toe Rag Studios is an analogue recording studio located in Hackney, London, UK."}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"http://dbpedia.org/resource/Toe_Rag_Studios","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://dbpedia.org/resource/Toe_Rag_Studios">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/7d1fadd0-f1cd-46ee-8fb2-b533da47dd72">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/c3e04a37-767e-497b-a293-a5a5a9e184b2"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/5e23f8d5-1c7e-49d5-a45a-773862ffe386"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/5e23f8d5-1c7e-49d5-a45a-773862ffe386">
+	<rdf:value>xpointer(//orgName[@annotationId="ent_357"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+</rdf:RDF>
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Organization standard name</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Canadian Writing Research Collaboratory (CWRC)</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/legalcode">
+                  <p></p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Organization entity record</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="PID_entity_record">
+               <idno type="Authority_name" cert="high"></idno>
+               <orgName type="standard">
+                  <name>CWRC Organization Entity, Test</name>
+               </orgName>
+               <orgName type="prefered" xml:lang="ENG">
+                  <name type="full">Test CWRC Organization Entity</name>
+               </orgName>
+               <orgName type="variant" xml:lang="ENG">
+                  <name type="acronym"><orgName annotationId="ent_357" ref="http://dbpedia.org/resource/Toe_Rag_Studios" cert="definite">TOE CWRC</orgName></name>
+                  <note>
+                     <label>Named preferred by: </label>
+                     <desc>
+                        <orgName ref="URI">Name of the project that uses the variant name</orgName>
+                     </desc>
+                  </note>
+               </orgName>
+               <event type="establishment" source="https://www.w3.org/TR/NOTE-datetime" from="2017-01" cert="high">
+                  <desc><placeName ref="URI">Place Name</placeName><desc>Note about the establishment</desc>
+                     </desc>
+                  </event>
+               <trait type="factuality" cert="high" ref="Ontology">
+                  <ab>real/fictional
+                     <!-- form should contain a dropdown with three options: real, fictional, both, unknown --></ab>
+               </trait>
+               <trait type="orgType" cert="high" ref="OntologyURL">
+                  <ab>Org Type</ab>
+               </trait>
+               <note type="general" xml:lang="ENG"> This is a general note about the organization. </note>
+               <note type="project-specific" xml:lang="ENG">
+                  <note>This is a project-specific note about the organization.</note>
+                  <respons locus="value">
+                     <desc>
+                        <orgName ref="URI">Project (e.g.CWRC, REED, Orlando)</orgName>
+                     </desc>
+                  </respons>
+               </note>
+               <listBibl>
+                  <head>Sources:</head>
+                  <bibl><title></title><ref annotationId="ent_298" source="WorldCat" target="Resource_URI"></ref></bibl>
+               </listBibl>
+               <note type="resp_statement">
+                  <respons locus="value">
+                     <desc> 
+                        <date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2017-11-06"></date>
+                        <persName ref="URI-to-user-record">User real name</persName>
+                        </desc>
+                  </respons>
+                  <respons locus="value">
+                     <desc> 
+                        <date type="modified" source="https://www.w3.org/TR/NOTE-datetime" when="2017-11-07"></date>
+                        <persName ref="URI-to-user-record">User real name</persName>
+                     </desc>
+                  </respons>
+               </note>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>
