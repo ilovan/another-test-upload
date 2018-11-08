@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:cnt="http://www.w3.org/2011/content#">
+<rdf:Description rdf:about="https://dev-cwrc-writer.cwrc.ca//editor/documents/null">
+	<cw:mode>0</cw:mode>
+	<cw:allowOverlap>false</cw:allowOverlap>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-11-08T16:17:02.049Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2018-11-08T16:17:02.049Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#linking"/>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"source":"WorldCat","target":"Resource_URI"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsText"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
+	<rdf:value>xpointer(//ref[@annotationId="ent_358"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+</rdf:RDF>
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Person standard name</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Canadian Writing Research Collaboratory (CWRC)</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/legalcode">
+                  <p></p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Person entity record</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="PID_entity_record">
+               <idno type="Authority_name" cert="high">VIAF URI</idno>
+               <persName type="standard">
+                  <name>Last Name, First Name </name>
+               </persName>
+               <persName type="prefered" xml:lang="ENG">
+                  <name type="forename">Forename</name>
+                  <name type="middlename">Middle Name</name>
+                  <name type="surname">Last Name</name>
+                  <genName>(e.g. the IIIrd, senior, junior, etc.)</genName>
+                  <roleName>offical title or rank</roleName>
+               </persName>
+               <persName type="variant" role="variant_name_type" xml:lang="ENG">
+                  <name type="forename">Forename</name>
+                  <name type="middlename">Middle Name</name>
+                  <name type="surname">Last Name 2</name>
+                  <genName>(e.g. the IIIrd, senior, junior, etc.)</genName>
+                  <roleName>offical title or rank</roleName>
+                  <note>
+                     <label>Named prefered by: </label>
+                     <desc>
+                        <orgName ref="URI">Bah-bah black sheep</orgName> </desc></note></persName><birth><date cert="high" source="https://www.w3.org/TR/NOTE-datetime" when="2000-10-30">D.O.B </date>, <placeName>Place of
+                     birth</placeName>
+                  <note></note>
+               </birth>
+               <death>
+                  <date cert="high" notBefore="2017-07-21">?
+                     <!-- format for living persons; for dead persons, structure the same as for D.O.B. --></date>,
+                     <placeName>Place of death</placeName>
+                  <note></note>
+               </death>
+               <floruit>
+                  <date></date>
+                  <note></note>
+               </floruit>
+               <sex source="http://sparql.cwrc.ca/ontology/cwrc.html#Gender" value="GenderQueer" cert="high"></sex>
+               <trait type="factuality" cert="high">
+                  <ab>real/fictional
+                     <!-- form should contain a dropdown with three options: real, fictional, both, unknown --></ab>
+               </trait>
+               <nationality cert="high" ref="http://sparql.cwrc.ca/ontology/cwrc.html">Nationality
+                  (zero or more)</nationality>
+               <occupation cert="high">Ocupation (zero or more)Use Orlando picklist
+                  values</occupation>
+               <affiliation cert="high">User input</affiliation>
+               <note type="general" xml:lang="ENG"> This is a general note about the person. </note>
+               <note type="project-specific" xml:lang="ENG">
+                 This is a project-specific note about the person.
+                  <respons locus="value">
+                     <desc>
+                        <orgName ref="URI">Project (e.g.CWRC, REED, Orlando)</orgName>
+                     </desc>
+                  </respons>
+               </note>
+               <listBibl>
+                  <head>Sources:</head>
+                  <bibl><title></title><ref annotationId="ent_358" source="WorldCat" target="Resource_URI"></ref></bibl>
+               </listBibl>
+                  <respons locus="value">
+                     <desc> 
+                        <date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2017-11-06"></date>
+                        <persName ref="URI-to-user-record">User real name</persName>
+                     </desc>
+                  </respons>
+                  <respons locus="value">
+                     <desc> 
+                        <date type="modified" source="https://www.w3.org/TR/NOTE-datetime" when="2017-11-07"></date>
+                        <persName ref="URI-to-user-record">User real name</persName>
+                     </desc>
+                  </respons>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
